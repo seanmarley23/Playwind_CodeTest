@@ -141,14 +141,14 @@ namespace Shapes
         {
             List<Shape> shapes = new List<Shape>();
 
-            //Uncomment code-block to test Rectangle V Rectangle intersections
-            /*
+            //Code-block to test Rectangle V Rectangle intersections
+            
             shapes.Add(new Rectangle(25, 25, 25, 25));
             shapes.Add(new Rectangle(75, 75, 50, 50));
             shapes.Add(new Rectangle(0, 0, 100, 100));
             shapes.Add(new Rectangle(30, 30, 100, 100));
             shapes.Add(new Rectangle(31, 31, 100, 100));
-            */
+            
 
             //Uncomment code-block to test Circle V Circle intersections
             /*
@@ -158,6 +158,7 @@ namespace Shapes
             shapes.Add(new Circle(15, 15, 100.0));
             */
 
+            //Find intersections method!
             FindIntersections(shapes);
             
 
